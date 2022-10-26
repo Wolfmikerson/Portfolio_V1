@@ -10,19 +10,6 @@ body {
   padding: 0;
 }
 
-.portfolio,
-.about,
-.contact,
-.desktop,
-.desktop2,
-.can-desktop,
-.backdev-desktop,
-.tonic-desktop,
-.para-desktop,
-.htm-desktop {
-  display: none;
-}
-
 .default-custom-fonts {
   font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
@@ -127,18 +114,6 @@ body {
 .display-list-item {
   margin-right: 20px;
 }
-
-/*
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-template-columns: auto;
-  grid-template-columns: auto;
-  padding: 30px 30px;
-  row-gap: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-} */
 
 .flex-item {
   display: flex;
@@ -330,18 +305,6 @@ body {
   margin: 0 1rem 1rem 1rem;
 }
 
-/*
-.framework {
-  border-bottom: solid;
-  border-bottom-color: #000;
-}
-
-.skills {
-  border-bottom: solid;
-  border-bottom-color: #000;
-
-} */
-
 .second-list-tyle {
   margin-bottom: 0;
 }
@@ -378,136 +341,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-}
-
-.jsi {
-  margin: 5px;
-}
-
-.js {
-  margin: 5px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 510;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #253858;
-}
-
-.footer {
-  background-color: #6070ff;
-  font-style: normal;
-  font-family: Poppins, sans-serif;
-  height: 779px;
-  border-radius: 100px 0 0 0;
-  padding-top: 103px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.contactme {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
-.form {
-  flex-wrap: wrap;
-}
-
-.form-description {
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.form-element {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
-  flex: 1;
-  padding: 0 10px 0;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  width: 80%;
-}
-
-input.form-element {
-  height: 48px;
-  width: 327px;
-}
-
-textarea.form-element {
-  height: 170px;
-  flex: 1 0 auto;
-}
-
-.form-element::placeholder {
-  color: #b3bac5;
-}
-
-.flex-auto {
-  flex: 1 0 auto;
-}
-
-.but:enabled {
-  background-color: #fff;
-  border: 1px solid #7f8cff;
-}
-
-.but:hover {
-  background-color: #6070ff;
-}
-
-.but:disabled {
-  color: #5e6c84;
-}
-
-.but:active {
-  background-color: #2230d2;
-}
-
-#but-ons {
-  width: 140px;
-  height: 48px;
-  border-radius: 8px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 450;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: #2230d2;
-}
-
-#but-ons:enabled {
-  background-color: #fff;
-  border: 1px solid #7f8cff;
-}
-
-#but-ons:hover {
-  background-color: #6070ff;
-}
-
-#but-ons:disabled {
-  color: #5e6c84;
-}
-
-#but-ons:active {
-  background-color: #2230d2;
 }
 
 /* Fix Mobile  */
@@ -551,59 +384,10 @@ textarea.form-element {
   border-bottom-left-radius: 0;
 }
 
-.grid-item2 {
-  grid-area: item2;
-  margin-bottom: 5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.grid-item4 {
-  grid-area: item4;
-  margin-bottom: 5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.grid-item3 {
-  grid-area: item3;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.grid-item5 {
-  grid-area: item5;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.grid-item6 {
-  grid-area: item6;
-  margin-bottom: 5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.grid-item7 {
-  grid-area: item7;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.grid-item8 {
-  grid-area: item8;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
 
 /* Add Desktop version Styling */
 
-@media (min-width: 768px) {
-  .menu {
-    display: none;
-  }
-
+/* @media (min-width: 768px) {
   .portfolio,
   .about,
   .contact {
@@ -902,4 +686,4 @@ textarea.form-element {
   input.form-element {
     width: 587px;
   }
-}
+} */
