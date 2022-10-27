@@ -596,8 +596,8 @@ textarea.form-element {
   border-top-right-radius: 0;
 }
 
-
 /* Add Desktop version Styling */
+
 /*
 
 @media (min-width: 768px) {
@@ -715,7 +715,7 @@ textarea.form-element {
     padding: 30px 30px;
     row-gap: 5rem;
     margin-top: 5rem;
-    margin-bottom: 5rem; 
+    margin-bottom: 5rem;
     grid-template-columns: 1fr 1fr;
     width: 80%;
     padding: 0%;
